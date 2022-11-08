@@ -1,25 +1,15 @@
-# README
+## Installation et lancement
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+1. Ouvrez un terminal
+2. Rendez-vous dans le répertoire du projet
+3. Entrez :
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-# eventbrite3
+```shell
+$ bundle install
+$ rails db:create
+$ rails db:migrate
+$ rails db:seed
+$ rails server
+```
+4. Ouvrez votre navigateur: `http://localhost:3000/`)
+5. C'est parti pour le fun ! Bonne correction !
